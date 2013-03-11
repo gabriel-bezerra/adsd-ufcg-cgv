@@ -1,6 +1,6 @@
 # read data from file
-data <- read.table(file = "factorialdata.txt", header = TRUE)
-
+data.file <- commandArgs(trailingOnly = TRUE)[1]
+data <- read.table(file = data.file, header = TRUE)
 
 # summarize time data
 
