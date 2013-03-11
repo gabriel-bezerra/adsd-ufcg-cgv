@@ -1,8 +1,17 @@
-# read data from file
+# CPU and Memory usage analysis
+#
+# Usage: Rscript analize.R input-data-file number-of-cpus
+#
+
+
+# Read input data
 data.file <- commandArgs(trailingOnly = TRUE)[1]
 data <- read.table(file = data.file, header = TRUE)
 
-# summarize time data
+number.of.cpus <- commandArgs(trailingOnly = TRUE)[2]
+
+
+# Summarize time data
 
 process.times <- data[, 1:4]
 process.times$user.time <- process.times$utime + process.times$cutime
@@ -16,7 +25,7 @@ cpu.times$total.time <- cpu.times$umode +
                         cpu.times$idle
 
 real.time <- data[, 9]
-absolute.time <- real.time - real.time[1]  # time since the beggining of the experiment
+absolute.time <- real.time - real.time[1]  # time since the beginning of the experiment
 
 
 summarized.time.data <- cbind(process.user.time = process.times$user.time,
@@ -34,7 +43,7 @@ t1.time.data <- tail(summarized.time.data, -1)
 process.time.between.t0.and.t1 <- t1.time.data[, 'process.total.time'] - t0.time.data[, 'process.total.time']
     cpu.time.between.t0.and.t1 <- t1.time.data[, 'cpu.total.time']     - t0.time.data[, 'cpu.total.time']
 
-cpu.usage <- process.time.between.t0.and.t1 / cpu.time.between.t0.and.t1
+cpu.usage <- number.of.cpus * process.time.between.t0.and.t1 / cpu.time.between.t0.and.t1
 
 cpu.usage.and.time <- cbind(absolute.time = t1.time.data[,'absolute.time'],
                             cpu.usage)
@@ -42,3 +51,15 @@ cpu.usage.and.time <- cbind(absolute.time = t1.time.data[,'absolute.time'],
 
 summary(cpu.usage.and.time)
 plot(cpu.usage.and.time, type = 'l')
+
+
+# Memory usage
+
+mem.peak.size <- data[, 10]
+mem.size <- data[, 11]
+
+memory.usage.and.time <- cbind(absolute.time, mem.size, mem.peak.size)
+
+summary(memory.usage.and.time)
+plot(memory.usage.and.time, type = 'l')
+
