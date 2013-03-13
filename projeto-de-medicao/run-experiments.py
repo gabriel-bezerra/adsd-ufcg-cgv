@@ -39,9 +39,10 @@ class Experiment:
         command = "avconv"
         input_part = "-i " + self.input_file_name()
         output_encoder = "-c:v " + encoders[self.encoder]
+        force_overwrite = "-y"
         output_file = "output.mkv"
 
-        return " ".join([command, input_part, output_encoder, output_file])
+        return " ".join([command, input_part, output_encoder, force_overwrite, output_file])
 
     def name(self):
         return "_".join([self.encoder, self.resolution, self.frames, self.motion, str(self.repetition_number)])
