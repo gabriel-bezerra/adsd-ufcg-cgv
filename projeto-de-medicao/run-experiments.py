@@ -33,7 +33,7 @@ class Experiment:
         input_video_name = \
             "_".join([self.resolution, self.frames, self.motion])
 
-        return input_video_directory + input_video_name + ".mp4"
+        return input_video_directory + input_video_name + ".webm"
 
     def conversion_command(self):
         command = "avconv"
@@ -59,15 +59,16 @@ class Experiment:
 
 # Run experiments
 
-number_of_repetitions = 1
+repetitions = range(0, 5)
 
 def experiments():
     for e in encoders.keys():
         for r in resolutions:
             for f in frames:
                 for m in motions:
-                    for i in xrange(0, number_of_repetitions):
+                    for i in repetitions:
                         yield Experiment(e, r, f, m, i)
 
 for exp in experiments():
     exp.run()
+

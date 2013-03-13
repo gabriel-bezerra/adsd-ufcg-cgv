@@ -22,6 +22,9 @@ cd $output_dir
   $scripts_dir/run-and-log-cpu-and-memory.sh "$experiment_command" raw-cpu-and-memory-log.txt
   end_time=$(date +%s)
 
+  # Record output file size
+  du -k output.mkv | cut -f 1 > output-size-log.txt
+
   # Record experiment time
   echo $start_time $end_time > time-log.txt
 cd -
