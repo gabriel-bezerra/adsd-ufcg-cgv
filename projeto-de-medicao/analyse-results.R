@@ -20,6 +20,20 @@ hist(data$mem.peak)
 hist(data$output.size)
 hist(data$execution.time)
 
+mean(data$execution.time)
+median(data$execution.time)
+
+mean(data[data$resolution == "240p", ]$execution.time)
+median(data[data$resolution == "240p", ]$execution.time)
+hist(data[data$resolution == "240p", ]$execution.time)
+length(data[data$resolution == "240p", ]$execution.time)
+
+mean(data[data$resolution == "480p", ]$execution.time)
+median(data[data$resolution == "480p", ]$execution.time)
+hist(data[data$resolution == "480p", ]$execution.time)
+length(data[data$resolution == "480p", ]$execution.time)
+
+
 # Some analyses
 
 mean.confidence.interval <- function(sample) {
@@ -94,4 +108,5 @@ chart.for <- function(aggregated.results, chart.name) {
 print(chart.for(cpu.usage.means.and.cis, "uso de CPU"))
 print(chart.for(memory.usage.means.and.cis, "uso de memória"))
 print(chart.for(execution.time.means.and.cis, "tempo de execução"))
+print(chart.for(output.size.means.and.cis, "tamanho de saida"))
 

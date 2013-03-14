@@ -41,7 +41,7 @@ summarized.time.data <- cbind(process.user.time = process.times$user.time,
 t0.time.data <- head(summarized.time.data, -1)
 t1.time.data <- tail(summarized.time.data, -1)
 
-process.time.between.t0.and.t1 <- t1.time.data[, 'process.total.time'] - t0.time.data[, 'process.total.time']
+process.time.between.t0.and.t1 <- t1.time.data[, 'process.user.time'] - t0.time.data[, 'process.user.time']
     cpu.time.between.t0.and.t1 <- t1.time.data[, 'cpu.total.time']     - t0.time.data[, 'cpu.total.time']
 
 cpu.usage <- number.of.cpus * process.time.between.t0.and.t1 / cpu.time.between.t0.and.t1

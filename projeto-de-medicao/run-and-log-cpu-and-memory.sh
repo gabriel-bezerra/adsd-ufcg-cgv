@@ -7,7 +7,7 @@ fi
 
 command_to_run=$1
 log_output_file=$2
-interval_between_measurements=1
+interval_between_measurements=0.125
 scripts_dir="$(dirname $(readlink -f $0))"
 
 $command_to_run &

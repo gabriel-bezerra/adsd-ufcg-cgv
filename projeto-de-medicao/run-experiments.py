@@ -5,11 +5,11 @@
 encoders = { "vp8": "libvpx",
             "h264": "libx264",
             "theora": "libtheora",
-            "xvid": "libxvid" }
+            "xvid": "mpeg4" }
 
-resolutions = [ "480p", "720p" ]
+resolutions = [ "240p", "480p" ]
 
-frames = [ "900", "5400" ]
+frames = [ "500", "2000" ]
 
 motions = [ "high", "low" ]
 
@@ -33,7 +33,7 @@ class Experiment:
         input_video_name = \
             "_".join([self.resolution, self.frames, self.motion])
 
-        return input_video_directory + input_video_name + ".webm"
+        return input_video_directory + input_video_name + ".flv"
 
     def conversion_command(self):
         command = "avconv"
@@ -60,14 +60,14 @@ class Experiment:
 
 # Run experiments
 
-repetitions = range(0, 5)
+repetitions = range(5, 15)
 
 def experiments():
-    for e in encoders.keys():
+    for i in repetitions:
         for r in resolutions:
             for f in frames:
-                for m in motions:
-                    for i in repetitions:
+                for e in encoders.keys():
+                    for m in motions:
                         yield Experiment(e, r, f, m, i)
 
 for exp in experiments():
