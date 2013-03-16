@@ -12,6 +12,7 @@ data$execution.time = data$end.time - data$start.time
 # Tamanho da saída varia de acordo com a quantidade de movimento do video. Config: 500 240p (low | high) 
 ## Boxplots
 
+### Fatores 500 quadros e 240p
 vp8OutputSizeLowMotion <- data[data$encoder == "vp8" & data$frames == 500 & data$resolution == "240p" & data$motion == "low", ]$output.size
 h264OutputSizeLowMotion <- data[data$encoder == "h264" & data$frames == 500 & data$resolution == "240p" & data$motion == "low", ]$output.size
 theoraOutputSizeLowMotion <- data[data$encoder == "theora" & data$frames == 500 & data$resolution == "240p" & data$motion == "low", ]$output.size
@@ -26,8 +27,33 @@ outputSizeDataFrame <- data.frame(vp8OutputSizeLowMotion, vp8OutputSizeHighMotio
 								h264OutputSizeLowMotion, h264OutputSizeHighMotion,
 								theoraOutputSizeLowMotion, theoraOutputSizeHighMotion,
 								xvidOutputSizeLowMotion, xvidOutputSizeHighMotion)
-								
-boxplot(outputSizeDataFrame, names=c("vLow", "vHigh", "hLow", "hHigh", "tLow", "tHigh", "xLow", "xHigh"), xlab="Codec and Source Video Motion Amount", ylab="Output Video Size (KB)")
+
+png("boxplot-videomotion-outputsize-500f-240p.png")
+boxplot(outputSizeDataFrame, main="500 quadros e resolucao 240p", names=c("vLow", "vHigh", "hLow", "hHigh", "tLow", "tHigh", "xLow", "xHigh"), xlab="Codec e Quantidade de Movimento", ylab="Tamanho da saida (KB)")
+dev.off()
+
+### Fatores 2000 quadros e resolucao 480p
+
+vp8OutputSizeLowMotion <- data[data$encoder == "vp8" & data$frames == 2000 & data$resolution == "480p" & data$motion == "low", ]$output.size
+h264OutputSizeLowMotion <- data[data$encoder == "h264" & data$frames == 2000 & data$resolution == "480p" & data$motion == "low", ]$output.size
+theoraOutputSizeLowMotion <- data[data$encoder == "theora" & data$frames == 2000 & data$resolution == "480p" & data$motion == "low", ]$output.size
+xvidOutputSizeLowMotion <- data[data$encoder == "xvid" & data$frames == 2000 & data$resolution == "480p" & data$motion == "low", ]$output.size
+
+vp8OutputSizeHighMotion <- data[data$encoder == "vp8" & data$frames == 2000 & data$resolution == "480p" & data$motion == "high", ]$output.size
+h264OutputSizeHighMotion <- data[data$encoder == "h264" & data$frames == 2000 & data$resolution == "480p" & data$motion == "high", ]$output.size
+theoraOutputSizeHighMotion <- data[data$encoder == "theora" & data$frames == 2000 & data$resolution == "480p" & data$motion == "high", ]$output.size
+xvidOutputSizeHighMotion <- data[data$encoder == "xvid" & data$frames == 2000 & data$resolution == "480p" & data$motion == "high", ]$output.size
+
+outputSizeDataFrame <- data.frame(vp8OutputSizeLowMotion, vp8OutputSizeHighMotion,
+								h264OutputSizeLowMotion, h264OutputSizeHighMotion,
+								theoraOutputSizeLowMotion, theoraOutputSizeHighMotion,
+								xvidOutputSizeLowMotion, xvidOutputSizeHighMotion)
+
+png("boxplot-videomotion-outputsize-2000f-480p.png")								
+boxplot(outputSizeDataFrame, main="2000 quadros e resolucao 480p", names=c("vLow", "vHigh", "hLow", "hHigh", "tLow", "tHigh", "xLow", "xHigh"), xlab="Codec e Quantidade de Movimento", ylab="Tamanho da saida (KB)")
+dev.off()
+
+
 
 # Tempo de execucao varia de acordo com a quantidade de quadros. Config: (500 | 2000) 480p high
 ## Boxplots
@@ -45,8 +71,9 @@ timeDataFrame <- data.frame(vp8ExecutionTimeShort, vp8ExecutionTimeLong,
 								h264ExecutionTimeShort, h264ExecutionTimeLong,
 								theoraExecutionTimeShort, theoraExecutionTimeLong,
 								xvidExecutionTimeShort, xvidExecutionTimeLong)
-								
-boxplot(timeDataFrame, names=c("vShort", "vLong", "hShort", "hLong", "tShort", "tLong", "xShort", "xLong"), xlab="Codec and Source Video Frames", ylab="Execution Time (ns)")
+png("boxplot-videoframe-executiontime-high-480p.png")
+boxplot(timeDataFrame, main="Quantidade de movimento ALTA e resolucao 480p", names=c("vShort", "vLong", "hShort", "hLong", "tShort", "tLong", "xShort", "xLong"), xlab="Codec e Quantidade de Quadros", ylab="Tempo de execucao (segundos)")
+dev.off()
 
 # Uso de CPU varia de acordo com a resolucao do video. Config: 500 (240p | 480p) low
 ## Boxplots
@@ -64,9 +91,10 @@ cpuUsageDataFrame <- data.frame(vp8CpuUsageLowRes, vp8CpuUsageHighRes,
 								h264CpuUsageLowRes, h264CpuUsageHighRes,
 								theoraCpuUsageLowRes, theoraCpuUsageHighRes,
 								xvidCpuUsageLowRes, xvidCpuUsageHighRes)
-								
-boxplot(cpuUsageDataFrame, names=c("vLow", "vHigh", "hLow", "hHigh", "tLow", "tHigh", "xLow", "xHigh"), xlab="Codec and Source Video Resolution", ylab="CPU Usage (0.0 to 4.0)")
 
+png("boxplot-resolution-cpuusage-500f-low.png")
+boxplot(cpuUsageDataFrame, main="500 quadros e quantidade de movimento BAIXA", names=c("vLow", "vHigh", "hLow", "hHigh", "tLow", "tHigh", "xLow", "xHigh"), xlab="Codec e Resolucao do video", ylab="Uso de CPU (0.0 a 4.0)")
+dev.off()
 
 
 
@@ -87,8 +115,9 @@ memUsageDataFrame <- data.frame(vp8MemUsageLowMotion, vp8MemUsageHighMotion,
 								theoraMemUsageLowMotion, theoraMemUsageHighMotion,
 								xvidMemUsageLowMotion, xvidMemUsageHighMotion)
 								
-boxplot(memUsageDataFrame, names=c("vLow", "vHigh", "hLow", "hHigh", "tLow", "tHigh", "xLow", "xHigh"), xlab="Codec and Source Video Motion Amount", ylab="Mem Usage (KB)")
-
+png("boxplot-motion-memusage-2000f-480p.png")
+boxplot(memUsageDataFrame, main="2000 quadros e resolucao 480p", names=c("vLow", "vHigh", "hLow", "hHigh", "tLow", "tHigh", "xLow", "xHigh"), xlab="Codec e Quantidade de movimento", ylab="Uso de Memoria (KB)")
+dev.off()
 
 
 
