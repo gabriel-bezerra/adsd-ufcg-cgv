@@ -1,0 +1,20 @@
+[RESOURCES]
+Controladores de voo
+Pista decolagem e aterrisagem
+Portao
+Pista taxiamento
+[VARIABLES]
+Controle de Voo.NumberOut
+Decolagem?.NumberOut False
+Quer decolar?.NumberOut False
+Decolagem?.NumberOut True
+Pistas de decolagem e aterissagem.NumberIn
+Pistas de decolagem e aterissagem.NumberOut
+Controle de Voo.NumberIn
+Portoes.NumberOut
+Pistas de taxiamento.NumberOut
+Pistas de taxiamento.NumberIn
+Aviao entrando no espaco aereo.NumberOut
+Quer decolar?.NumberOut True
+Portoes.NumberIn
+Aviao saindo do espaco aereo.NumberOut
