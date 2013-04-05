@@ -2,86 +2,1205 @@
                                       ARENA Simulation Results
                                   Victor Freire - License: STUDENT
 
-                                  Summary for Replication 1 of 1
+                                  Summary for Replication 1 of 10
 
-Project: Unnamed Project                                             Run execution date : 4/ 4/2013
-Analyst: Victor Freire                                               Model revision date: 4/ 4/2013
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
 
-Replication ended at time      : 14.039301 Hours 
-Base Time Units: Hours
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
 
                                            TALLY VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
+Controle de Voo.TotalTimePerEntity          .50334     .00847     .25797     .75580        588    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        582    
+Pistas de taxiamento.TotalTimePerEntity     6.0263     .03177     4.2236     8.0662       1166    
+Pistas de taxiamento.VATimePerEntity        6.0203     .03098     4.2236     7.6916       1166    
+Controle de Voo.VATimePerEntity             .50334     .00847     .25797     .75580        588    
+Pistas de taxiamento.WaitTimePerEntity      .00598     .00741     .00000     1.6909       1166    
+Pistas de decolagem e aterissagem.VATimePe  2.2299     .02705     .69798     3.6799       1174    
+Portoes.VATimePerEntity                     29.993     .81912     2.4440     63.645        582    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        588    
+Pistas de decolagem e aterissagem.WaitTime  3.6808     (Corr)     .00000     16.608       1174    
+Pistas de decolagem e aterissagem.TotalTim  5.9108     (Corr)     .69861     18.983       1174    
+Portoes.TotalTimePerEntity                  29.993     .81912     2.4440     63.645        582    
 AviaoChegando.VATime                            --         --         --         --          0
 AviaoChegando.NVATime                           --         --         --         --          0
 AviaoChegando.WaitTime                          --         --         --         --          0
 AviaoChegando.TranTime                          --         --         --         --          0
 AviaoChegando.OtherTime                         --         --         --         --          0
 AviaoChegando.TotalTime                         --         --         --         --          0
-AviaoSaindo.VATime                          .72852     (Insuf)    .27153     1.1877        140    
-AviaoSaindo.NVATime                         .00000     (Insuf)    .00000     .00000        140    
-AviaoSaindo.WaitTime                        5.8267     (Insuf)    .33613     8.3401        140    
-AviaoSaindo.TranTime                        .00000     (Insuf)    .00000     .00000        140    
-AviaoSaindo.OtherTime                       .00000     (Insuf)    .00000     .00000        140    
-AviaoSaindo.TotalTime                       6.5552     (Insuf)    .91397     9.1543        140    
-Controle de Voo.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        140    
-Portoes.Queue.WaitingTime                   .00361     (Insuf)    .00000     .09618        140    
-Pistas de taxiamento.Queue.WaitingTime      2.9112     (Insuf)    .00000     5.1035        280    
-Pistas de decolagem e aterissagem.Queue.Wa  5.5453E-04 (Insuf)    .00000     .01271        140    
+AviaoSaindo.VATime                          46.923     .82080     19.328     81.263        584    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        584    
+AviaoSaindo.WaitTime                        7.7507     (Corr)     .00000     28.218        584    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        584    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        584    
+AviaoSaindo.TotalTime                       54.674     (Corr)     23.829     92.024        584    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        589    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        586    
+Pistas de taxiamento.Queue.WaitingTime      .00595     .00745     .00000     1.6909       1172    
+Pistas de decolagem e aterissagem.Queue.Wa  3.6807     (Corr)     .00000     16.608       1174    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-AviaoChegando.WIP                           29.720     (Insuf)    .00000     79.000     .00000    
-AviaoSaindo.WIP                             35.648     (Insuf)    .00000     71.000     .00000    
-Controladores de voo.NumberBusy             .08380     (Insuf)    .00000     3.0000     .00000    
+AviaoChegando.WIP                           17.235     1.1959     7.0000     28.000     24.000    
+AviaoSaindo.WIP                             4.8262     .69529     .00000     16.000     6.0000    
+Controladores de voo.NumberBusy             .20556     .01613     .00000     3.0000     1.0000    
 Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
-Controladores de voo.Utilization            .00838     (Insuf)    .00000     .30000     .00000    
-Pista decolagem e aterrisagem.NumberBusy    .16183     (Insuf)    .00000     2.0000     .00000    
+Controladores de voo.Utilization            .02056     .00161     .00000     .30000     .10000    
+Pista decolagem e aterrisagem.NumberBusy    1.8169     (Corr)     .00000     2.0000     2.0000    
 Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
-Pista decolagem e aterrisagem.Utilization   .08092     (Insuf)    .00000     1.0000     .00000    
-Portao.NumberBusy                           5.0275     (Insuf)    .00000     10.000     .00000    
-Portao.NumberScheduled                      10.000     (Insuf)    10.000     10.000     10.000    
-Portao.Utilization                          .50276     (Insuf)    .00000     1.0000     .00000    
-Pista taxiamento.NumberBusy                 1.9915     (Insuf)    .00000     2.0000     .00000    
-Pista taxiamento.NumberScheduled            2.0000     (Insuf)    2.0000     2.0000     2.0000    
-Pista taxiamento.Utilization                .99577     (Insuf)    .00000     1.0000     .00000    
+Pista decolagem e aterrisagem.Utilization   .90847     (Corr)     .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.168     .76729     6.0000     20.000     15.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .24337     .01535     .12000     .40000     .30000    
+Pista taxiamento.NumberBusy                 4.8845     .23877     .00000     10.000     9.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .48845     .02388     .00000     1.0000     .90000    
 Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
-Portoes.Queue.NumberInQueue                 .03605     (Insuf)    .00000     3.0000     .00000    
-Pistas de taxiamento.Queue.NumberInQueue    58.062     (Corr)     .00000     103.00     .00000    
-Pistas de decolagem e aterissagem.Queue.Nu  .00553     (Insuf)    .00000     2.0000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .00484     (Insuf)    .00000     2.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  2.9818     (Corr)     .00000     15.000     3.0000    
 
                                              COUNTERS
 
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Operacoes de Aeronave                           280  Infinite
+Operacoes de Aeronave                          1174  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-AviaoChegando.NumberIn                      140.00    
-AviaoChegando.NumberOut                     140.00    
-AviaoSaindo.NumberIn                        140.00    
-AviaoSaindo.NumberOut                       140.00    
-Controladores de voo.NumberSeized           140.00    
-Controladores de voo.ScheduledUtilization   .00838    
-Pista decolagem e aterrisagem.NumberSeized  140.00    
-Pista decolagem e aterrisagem.ScheduledUti  .08092    
-Portao.NumberSeized                         140.00    
-Portao.ScheduledUtilization                 .50276    
-Pista taxiamento.NumberSeized               280.00    
-Pista taxiamento.ScheduledUtilization       .99577    
-System.NumberOut                            140.00    
+Controle de Voo Accum VA Time               295.96    
+Pistas de taxiamento Accum Wait Time        6.9679    
+Controle de Voo Number Out                  588.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2617.9    
+Pistas de taxiamento Accum VA Time          7019.7    
+Pistas de decolagem e aterissagem Number I  1168.0    
+Pistas de decolagem e aterissagem Number O  1174.0    
+Pistas de decolagem e aterissagem Accum Wa  4321.3    
+Portoes Accum VA Time                       17455.    
+Controle de Voo Number In                   589.00    
+Portoes Number Out                          582.00    
+Pistas de taxiamento Number Out             1166.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1172.0    
+Portoes Number In                           586.00    
+AviaoChegando.NumberIn                      589.00    
+AviaoChegando.NumberOut                     582.00    
+AviaoSaindo.NumberIn                        582.00    
+AviaoSaindo.NumberOut                       584.00    
+Controladores de voo.NumberSeized           589.00    
+Controladores de voo.ScheduledUtilization   .02056    
+Pista decolagem e aterrisagem.NumberSeized  1174.0    
+Pista decolagem e aterrisagem.ScheduledUti  .90847    
+Portao.NumberSeized                         586.00    
+Portao.ScheduledUtilization                 .24337    
+Pista taxiamento.NumberSeized               1172.0    
+Pista taxiamento.ScheduledUtilization       .48845    
+System.NumberOut                            584.00    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 2 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .50204     .00604     .23646     .71543        587    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        587    
+Pistas de taxiamento.TotalTimePerEntity     5.9897     .02548     4.1437     7.9053       1173    
+Pistas de taxiamento.VATimePerEntity        5.9845     .02492     4.1437     7.7738       1173    
+Controle de Voo.VATimePerEntity             .50204     .00604     .23646     .71543        587    
+Pistas de taxiamento.WaitTimePerEntity      .00519     .00557     .00000     1.5535       1173    
+Pistas de decolagem e aterissagem.VATimePe  2.2704     .02936     .57737     3.6213       1174    
+Portoes.VATimePerEntity                     30.492     .85714     .00000     56.731        587    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        587    
+Pistas de decolagem e aterissagem.WaitTime  10.211     (Corr)     .00000     37.729       1174    
+Pistas de decolagem e aterissagem.TotalTim  12.482     (Corr)     .83770     40.162       1174    
+Portoes.TotalTimePerEntity                  30.492     .85714     .00000     56.731        587    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          47.595     .76075     16.940     72.886        588    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        588    
+AviaoSaindo.WaitTime                        20.303     (Corr)     .00000     70.637        588    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        588    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        588    
+AviaoSaindo.TotalTime                       67.898     (Corr)     19.013     139.39        588    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        585    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        585    
+Pistas de taxiamento.Queue.WaitingTime      .00519     .00557     .00000     1.5535       1173    
+Pistas de decolagem e aterissagem.Queue.Wa  10.222     (Corr)     .00000     37.729       1174    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           20.095     (Corr)     7.0000     37.000     15.000    
+AviaoSaindo.WIP                             7.5780     (Corr)     .00000     23.000     4.0000    
+Controladores de voo.NumberBusy             .20438     .01987     .00000     5.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .02044     .00199     .00000     .50000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.8521     (Insuf)    .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .92605     (Insuf)    .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.401     .90904     5.0000     21.000     11.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .24803     .01818     .10000     .42000     .22000    
+Pista taxiamento.NumberBusy                 4.8754     .32765     .00000     10.000     3.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .48755     .03277     .00000     1.0000     .30000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .00422     (Insuf)    .00000     2.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  8.3361     (Corr)     .00000     34.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1174  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               294.69    
+Pistas de taxiamento Accum Wait Time        6.0832    
+Controle de Voo Number Out                  587.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2665.5    
+Pistas de taxiamento Accum VA Time          7019.9    
+Pistas de decolagem e aterissagem Number I  1175.0    
+Pistas de decolagem e aterissagem Number O  1174.0    
+Pistas de decolagem e aterissagem Accum Wa  11988.    
+Portoes Accum VA Time                       17898.    
+Controle de Voo Number In                   585.00    
+Portoes Number Out                          587.00    
+Pistas de taxiamento Number Out             1173.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1173.0    
+Portoes Number In                           585.00    
+AviaoChegando.NumberIn                      585.00    
+AviaoChegando.NumberOut                     587.00    
+AviaoSaindo.NumberIn                        587.00    
+AviaoSaindo.NumberOut                       588.00    
+Controladores de voo.NumberSeized           585.00    
+Controladores de voo.ScheduledUtilization   .02044    
+Pista decolagem e aterrisagem.NumberSeized  1174.0    
+Pista decolagem e aterrisagem.ScheduledUti  .92605    
+Portao.NumberSeized                         585.00    
+Portao.ScheduledUtilization                 .24803    
+Pista taxiamento.NumberSeized               1173.0    
+Pista taxiamento.ScheduledUtilization       .48755    
+System.NumberOut                            588.00    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 3 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .49964     .00627     .19502     .77874        647    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        641    
+Pistas de taxiamento.TotalTimePerEntity     6.0018     .02771     4.0116     8.3482       1285    
+Pistas de taxiamento.VATimePerEntity        5.9962     .02706     4.0116     8.3482       1285    
+Controle de Voo.VATimePerEntity             .49964     .00627     .19502     .77874        647    
+Pistas de taxiamento.WaitTimePerEntity      .00561     .00423     .00000     1.0352       1285    
+Pistas de decolagem e aterissagem.VATimePe  2.2409     .02656     .78221     3.8669       1271    
+Portoes.VATimePerEntity                     30.037     .79788     .00000     57.059        641    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        647    
+Pistas de decolagem e aterissagem.WaitTime  22.129     (Corr)     .00000     40.517       1271    
+Pistas de decolagem e aterissagem.TotalTim  24.370     (Corr)     1.0466     43.888       1271    
+Portoes.TotalTimePerEntity                  30.037     .79788     .00000     57.059        641    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          47.168     .74870     15.128     74.553        631    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        631    
+AviaoSaindo.WaitTime                        43.943     (Corr)     .00000     78.812        631    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        631    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        631    
+AviaoSaindo.TotalTime                       91.111     (Corr)     18.649     140.68        631    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        647    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        643    
+Pistas de taxiamento.Queue.WaitingTime      .00563     .00426     .00000     1.0352       1281    
+Pistas de decolagem e aterissagem.Queue.Wa  22.157     (Corr)     .00000     40.517       1271    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           27.035     (Corr)     9.0000     41.000     26.000    
+AviaoSaindo.WIP                             13.627     (Corr)     1.0000     25.000     15.000    
+Controladores de voo.NumberBusy             .22449     .02142     .00000     4.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .02245     .00214     .00000     .40000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.9775     (Insuf)    .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .98878     (Insuf)    .00000     1.0000     1.0000    
+Portao.NumberBusy                           13.379     .68127     4.0000     20.000     16.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .26759     .01363     .08000     .40000     .32000    
+Pista taxiamento.NumberBusy                 5.3407     .19491     1.0000     10.000     2.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .53408     .01949     .10000     1.0000     .20000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .00501     (Insuf)    .00000     2.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  19.735     (Corr)     .00000     38.000     21.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1271  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               323.26    
+Pistas de taxiamento Accum Wait Time        7.2077    
+Controle de Voo Number Out                  647.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2848.2    
+Pistas de taxiamento Accum VA Time          7705.1    
+Pistas de decolagem e aterissagem Number I  1289.0    
+Pistas de decolagem e aterissagem Number O  1271.0    
+Pistas de decolagem e aterissagem Accum Wa  28126.    
+Portoes Accum VA Time                       19254.    
+Controle de Voo Number In                   647.00    
+Portoes Number Out                          641.00    
+Pistas de taxiamento Number Out             1285.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1281.0    
+Portoes Number In                           643.00    
+AviaoChegando.NumberIn                      647.00    
+AviaoChegando.NumberOut                     641.00    
+AviaoSaindo.NumberIn                        641.00    
+AviaoSaindo.NumberOut                       631.00    
+Controladores de voo.NumberSeized           647.00    
+Controladores de voo.ScheduledUtilization   .02245    
+Pista decolagem e aterrisagem.NumberSeized  1271.0    
+Pista decolagem e aterrisagem.ScheduledUti  .98878    
+Portao.NumberSeized                         643.00    
+Portao.ScheduledUtilization                 .26759    
+Pista taxiamento.NumberSeized               1281.0    
+Pista taxiamento.ScheduledUtilization       .53408    
+System.NumberOut                            631.00    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 4 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .49964     .00909     .29592     .70687        571    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        566    
+Pistas de taxiamento.TotalTimePerEntity     6.0160     .03108     4.4835     7.7387       1139    
+Pistas de taxiamento.VATimePerEntity        6.0084     .02741     4.4835     7.7184       1139    
+Controle de Voo.VATimePerEntity             .49964     .00909     .29592     .70687        571    
+Pistas de taxiamento.WaitTimePerEntity      .00758     .01079     .00000     1.0619       1139    
+Pistas de decolagem e aterissagem.VATimePe  2.2484     (Corr)     .61508     3.7736       1141    
+Portoes.VATimePerEntity                     30.702     .63845     1.4559     62.973        566    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        571    
+Pistas de decolagem e aterissagem.WaitTime  4.7769     (Corr)     .00000     22.862       1141    
+Pistas de decolagem e aterissagem.TotalTim  7.0254     (Corr)     .87163     25.106       1141    
+Portoes.TotalTimePerEntity                  30.702     .63845     1.4559     62.973        566    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          47.761     .69755     18.539     79.085        565    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        565    
+AviaoSaindo.WaitTime                        9.7874     (Corr)     .00000     38.772        565    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        565    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        565    
+AviaoSaindo.TotalTime                       57.548     (Corr)     21.228     109.83        565    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        571    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        575    
+Pistas de taxiamento.Queue.WaitingTime      .00756     .01079     .00000     1.0619       1142    
+Pistas de decolagem e aterissagem.Queue.Wa  4.7669     (Corr)     .00000     22.862       1141    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           17.451     (Corr)     8.0000     34.000     24.000    
+AviaoSaindo.WIP                             5.1770     (Corr)     .00000     16.000     8.0000    
+Controladores de voo.NumberBusy             .19812     .02027     .00000     3.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .01981     .00203     .00000     .30000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.7801     .07723     .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .89005     .03862     .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.147     .77777     5.0000     24.000     19.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .24295     .01556     .10000     .48000     .38000    
+Pista taxiamento.NumberBusy                 4.7580     .31197     .00000     10.000     6.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .47580     .03120     .00000     1.0000     .60000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .00600     (Insuf)    .00000     3.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  3.7385     (Corr)     .00000     20.000     5.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1141  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               285.29    
+Pistas de taxiamento Accum Wait Time        8.6373    
+Controle de Voo Number Out                  571.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2565.5    
+Pistas de taxiamento Accum VA Time          6843.6    
+Pistas de decolagem e aterissagem Number I  1135.0    
+Pistas de decolagem e aterissagem Number O  1141.0    
+Pistas de decolagem e aterissagem Accum Wa  5450.4    
+Portoes Accum VA Time                       17377.    
+Controle de Voo Number In                   571.00    
+Portoes Number Out                          566.00    
+Pistas de taxiamento Number Out             1139.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1142.0    
+Portoes Number In                           575.00    
+AviaoChegando.NumberIn                      571.00    
+AviaoChegando.NumberOut                     566.00    
+AviaoSaindo.NumberIn                        566.00    
+AviaoSaindo.NumberOut                       565.00    
+Controladores de voo.NumberSeized           571.00    
+Controladores de voo.ScheduledUtilization   .01981    
+Pista decolagem e aterrisagem.NumberSeized  1141.0    
+Pista decolagem e aterrisagem.ScheduledUti  .89005    
+Portao.NumberSeized                         575.00    
+Portao.ScheduledUtilization                 .24295    
+Pista taxiamento.NumberSeized               1142.0    
+Pista taxiamento.ScheduledUtilization       .47580    
+System.NumberOut                            565.00    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 5 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .50469     .00602     .23071     .76588        608    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        611    
+Pistas de taxiamento.TotalTimePerEntity     6.0084     .03012     4.1635     7.7399       1223    
+Pistas de taxiamento.VATimePerEntity        6.0075     .02989     4.1635     7.7399       1223    
+Controle de Voo.VATimePerEntity             .50469     .00602     .23071     .76588        608    
+Pistas de taxiamento.WaitTimePerEntity      9.8014E-04 .00147     .00000     .55844       1223    
+Pistas de decolagem e aterissagem.VATimePe  2.2355     .03049     .70178     4.1005       1222    
+Portoes.VATimePerEntity                     30.226     .77882     1.0937     59.812        611    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        608    
+Pistas de decolagem e aterissagem.WaitTime  6.5071     (Corr)     .00000     20.212       1222    
+Pistas de decolagem e aterissagem.TotalTim  8.7426     (Corr)     1.0651     22.962       1222    
+Portoes.TotalTimePerEntity                  30.226     .77882     1.0937     59.812        611    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          47.203     .87653     17.352     75.494        610    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        610    
+AviaoSaindo.WaitTime                        13.082     (Corr)     .00000     35.863        610    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        610    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        610    
+AviaoSaindo.TotalTime                       60.286     (Corr)     23.140     98.313        610    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        608    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        610    
+Pistas de taxiamento.Queue.WaitingTime      9.8014E-04 .00144     .00000     .55844       1223    
+Pistas de decolagem e aterissagem.Queue.Wa  6.5068     (Corr)     .00000     20.212       1222    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           19.205     (Corr)     9.0000     29.000     16.000    
+AviaoSaindo.WIP                             6.3222     (Corr)     .00000     16.000     5.0000    
+Controladores de voo.NumberBusy             .21309     .01821     .00000     3.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .02131     .00182     .00000     .30000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.8972     (Insuf)    .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .94860     (Insuf)    .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.790     .72148     4.0000     22.000     12.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .25580     .01443     .08000     .44000     .24000    
+Pista taxiamento.NumberBusy                 5.1053     .22178     .00000     10.000     5.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .51053     .02218     .00000     1.0000     .50000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    8.3244E-04 (Insuf)    .00000     1.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  5.5214     (Corr)     .00000     19.000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1222  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               306.84    
+Pistas de taxiamento Accum Wait Time        1.1987    
+Controle de Voo Number Out                  608.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2731.7    
+Pistas de taxiamento Accum VA Time          7347.1    
+Pistas de decolagem e aterissagem Number I  1221.0    
+Pistas de decolagem e aterissagem Number O  1222.0    
+Pistas de decolagem e aterissagem Accum Wa  7951.6    
+Portoes Accum VA Time                       18468.    
+Controle de Voo Number In                   608.00    
+Portoes Number Out                          611.00    
+Pistas de taxiamento Number Out             1223.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1223.0    
+Portoes Number In                           610.00    
+AviaoChegando.NumberIn                      608.00    
+AviaoChegando.NumberOut                     611.00    
+AviaoSaindo.NumberIn                        611.00    
+AviaoSaindo.NumberOut                       610.00    
+Controladores de voo.NumberSeized           608.00    
+Controladores de voo.ScheduledUtilization   .02131    
+Pista decolagem e aterrisagem.NumberSeized  1222.0    
+Pista decolagem e aterrisagem.ScheduledUti  .94860    
+Portao.NumberSeized                         610.00    
+Portao.ScheduledUtilization                 .25580    
+Pista taxiamento.NumberSeized               1223.0    
+Pista taxiamento.ScheduledUtilization       .51053    
+System.NumberOut                            610.00    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 6 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .50402     .00769     .25906     .76671        586    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        585    
+Pistas de taxiamento.TotalTimePerEntity     6.0160     .02547     4.5155     7.4368       1171    
+Pistas de taxiamento.VATimePerEntity        6.0126     .02494     4.5155     7.4368       1171    
+Controle de Voo.VATimePerEntity             .50402     .00769     .25906     .76671        586    
+Pistas de taxiamento.WaitTimePerEntity      .00346     .00544     .00000     1.0357       1171    
+Pistas de decolagem e aterissagem.VATimePe  2.2611     .02476     .86503     3.7676       1171    
+Portoes.VATimePerEntity                     30.238     .77487     .00000     56.759        585    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        586    
+Pistas de decolagem e aterissagem.WaitTime  3.7433     (Corr)     .00000     18.834       1171    
+Pistas de decolagem e aterissagem.TotalTim  6.0044     (Corr)     1.0054     22.103       1171    
+Portoes.TotalTimePerEntity                  30.238     .77487     .00000     56.759        585    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          47.248     .68631     15.571     74.424        584    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        584    
+AviaoSaindo.WaitTime                        7.5143     (Corr)     .00000     26.261        584    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        584    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        584    
+AviaoSaindo.TotalTime                       54.763     (Corr)     21.779     86.221        584    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        586    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        586    
+Pistas de taxiamento.Queue.WaitingTime      .00346     .00570     .00000     1.0357       1172    
+Pistas de decolagem e aterissagem.Queue.Wa  3.7415     (Corr)     .00000     18.834       1171    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           17.364     1.2579     8.0000     34.000     17.000    
+AviaoSaindo.WIP                             4.9113     .80795     .00000     15.000     6.0000    
+Controladores de voo.NumberBusy             .20511     .01852     .00000     3.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .02051     .00185     .00000     .30000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.8398     (Insuf)    .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .91990     (Insuf)    .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.299     .73301     4.0000     27.000     13.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .24599     .01466     .08000     .54000     .26000    
+Pista taxiamento.NumberBusy                 4.8918     .19812     .00000     10.000     5.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .48919     .01981     .00000     1.0000     .50000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .00281     (Insuf)    .00000     2.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  3.0371     1.0441     .00000     17.000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1171  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               295.35    
+Pistas de taxiamento Accum Wait Time        4.0493    
+Controle de Voo Number Out                  586.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2647.7    
+Pistas de taxiamento Accum VA Time          7040.7    
+Pistas de decolagem e aterissagem Number I  1171.0    
+Pistas de decolagem e aterissagem Number O  1171.0    
+Pistas de decolagem e aterissagem Accum Wa  4383.4    
+Portoes Accum VA Time                       17689.    
+Controle de Voo Number In                   586.00    
+Portoes Number Out                          585.00    
+Pistas de taxiamento Number Out             1171.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1172.0    
+Portoes Number In                           586.00    
+AviaoChegando.NumberIn                      586.00    
+AviaoChegando.NumberOut                     585.00    
+AviaoSaindo.NumberIn                        585.00    
+AviaoSaindo.NumberOut                       584.00    
+Controladores de voo.NumberSeized           586.00    
+Controladores de voo.ScheduledUtilization   .02051    
+Pista decolagem e aterrisagem.NumberSeized  1171.0    
+Pista decolagem e aterrisagem.ScheduledUti  .91990    
+Portao.NumberSeized                         586.00    
+Portao.ScheduledUtilization                 .24599    
+Pista taxiamento.NumberSeized               1172.0    
+Pista taxiamento.ScheduledUtilization       .48919    
+System.NumberOut                            584.00    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 7 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .49647     .00642     .27170     .80716        598    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        587    
+Pistas de taxiamento.TotalTimePerEntity     6.0293     .03283     4.4660     8.2083       1185    
+Pistas de taxiamento.VATimePerEntity        6.0152     .02706     4.4660     7.8522       1185    
+Controle de Voo.VATimePerEntity             .49647     .00642     .27170     .80716        598    
+Pistas de taxiamento.WaitTimePerEntity      .01412     .01311     .00000     1.8060       1185    
+Pistas de decolagem e aterissagem.VATimePe  2.2392     .02923     .74377     4.0148       1186    
+Portoes.VATimePerEntity                     30.841     .99548     .00000     61.710        587    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        598    
+Pistas de decolagem e aterissagem.WaitTime  6.4433     (Corr)     .00000     24.513       1186    
+Pistas de decolagem e aterissagem.TotalTim  8.6825     (Corr)     1.0100     26.735       1186    
+Portoes.TotalTimePerEntity                  30.841     .99548     .00000     61.710        587    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          47.885     .94525     15.189     78.306        590    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        590    
+AviaoSaindo.WaitTime                        12.940     (Corr)     .00000     41.291        590    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        590    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        590    
+AviaoSaindo.TotalTime                       60.826     (Corr)     21.860     105.44        590    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        598    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        595    
+Pistas de taxiamento.Queue.WaitingTime      .01414     .01368     .00000     1.8060       1183    
+Pistas de decolagem e aterissagem.Queue.Wa  6.4447     (Corr)     .00000     24.513       1186    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           18.823     2.0951     7.0000     34.000     21.000    
+AviaoSaindo.WIP                             6.1725     (Corr)     .00000     19.000     1.0000    
+Controladores de voo.NumberBusy             .20617     .01840     .00000     3.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .02062     .00184     .00000     .30000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.8441     (Insuf)    .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .92205     (Insuf)    .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.682     1.0693     4.0000     21.000     15.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .25365     .02139     .08000     .42000     .30000    
+Pista taxiamento.NumberBusy                 4.9427     .29230     .00000     10.000     3.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .49428     .02923     .00000     1.0000     .30000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .01162     (Insuf)    .00000     3.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  5.3090     (Corr)     .00000     23.000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1186  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               296.89    
+Pistas de taxiamento Accum Wait Time        16.729    
+Controle de Voo Number Out                  598.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2655.7    
+Pistas de taxiamento Accum VA Time          7128.0    
+Pistas de decolagem e aterissagem Number I  1188.0    
+Pistas de decolagem e aterissagem Number O  1186.0    
+Pistas de decolagem e aterissagem Accum Wa  7641.8    
+Portoes Accum VA Time                       18103.    
+Controle de Voo Number In                   598.00    
+Portoes Number Out                          587.00    
+Pistas de taxiamento Number Out             1185.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1183.0    
+Portoes Number In                           595.00    
+AviaoChegando.NumberIn                      598.00    
+AviaoChegando.NumberOut                     587.00    
+AviaoSaindo.NumberIn                        587.00    
+AviaoSaindo.NumberOut                       590.00    
+Controladores de voo.NumberSeized           598.00    
+Controladores de voo.ScheduledUtilization   .02062    
+Pista decolagem e aterrisagem.NumberSeized  1186.0    
+Pista decolagem e aterrisagem.ScheduledUti  .92205    
+Portao.NumberSeized                         595.00    
+Portao.ScheduledUtilization                 .25365    
+Pista taxiamento.NumberSeized               1183.0    
+Pista taxiamento.ScheduledUtilization       .49428    
+System.NumberOut                            590.00    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 8 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .50163     .00502     .25071     .74518        554    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        551    
+Pistas de taxiamento.TotalTimePerEntity     6.0310     .03109     4.4542     7.6920       1109    
+Pistas de taxiamento.VATimePerEntity        6.0299     .03141     4.4542     7.6920       1109    
+Controle de Voo.VATimePerEntity             .50163     .00502     .25071     .74518        554    
+Pistas de taxiamento.WaitTimePerEntity      .00109     .00143     .00000     .43170       1109    
+Pistas de decolagem e aterissagem.VATimePe  2.2391     .02370     .60386     3.8882       1105    
+Portoes.VATimePerEntity                     30.581     .89128     .46922     66.478        551    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        554    
+Pistas de decolagem e aterissagem.WaitTime  3.0449     (Corr)     .00000     13.165       1105    
+Pistas de decolagem e aterissagem.TotalTim  5.2841     (Corr)     .96988     15.221       1105    
+Portoes.TotalTimePerEntity                  30.581     .89128     .46922     66.478        551    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          47.624     .78170     18.242     85.332        551    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        551    
+AviaoSaindo.WaitTime                        6.2013     (Corr)     .00000     18.765        551    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        551    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        551    
+AviaoSaindo.TotalTime                       53.825     (Corr)     19.939     87.289        551    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        553    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        556    
+Pistas de taxiamento.Queue.WaitingTime      .00109     (Corr)     .00000     .43170       1105    
+Pistas de decolagem e aterissagem.Queue.Wa  3.0422     (Corr)     .00000     13.165       1106    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           16.304     (Corr)     5.0000     27.000     17.000    
+AviaoSaindo.WIP                             4.3699     .63903     .00000     12.000     4.0000    
+Controladores de voo.NumberBusy             .19269     .01858     .00000     3.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .01927     .00186     .00000     .30000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.7194     (Corr)     .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .85973     (Corr)     .00000     1.0000     1.0000    
+Portao.NumberBusy                           11.787     1.0260     3.0000     22.000     15.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .23575     .02052     .06000     .44000     .30000    
+Pista taxiamento.NumberBusy                 4.6361     (Corr)     .00000     10.000     3.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .46362     (Corr)     .00000     1.0000     .30000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    8.4012E-04 (Insuf)    .00000     2.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  2.3371     .77779     .00000     12.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1105  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               277.90    
+Pistas de taxiamento Accum Wait Time        1.2097    
+Controle de Voo Number Out                  554.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2474.2    
+Pistas de taxiamento Accum VA Time          6687.1    
+Pistas de decolagem e aterissagem Number I  1107.0    
+Pistas de decolagem e aterissagem Number O  1105.0    
+Pistas de decolagem e aterissagem Accum Wa  3364.7    
+Portoes Accum VA Time                       16850.    
+Controle de Voo Number In                   553.00    
+Portoes Number Out                          551.00    
+Pistas de taxiamento Number Out             1109.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1105.0    
+Portoes Number In                           556.00    
+AviaoChegando.NumberIn                      553.00    
+AviaoChegando.NumberOut                     551.00    
+AviaoSaindo.NumberIn                        551.00    
+AviaoSaindo.NumberOut                       551.00    
+Controladores de voo.NumberSeized           553.00    
+Controladores de voo.ScheduledUtilization   .01927    
+Pista decolagem e aterrisagem.NumberSeized  1106.0    
+Pista decolagem e aterrisagem.ScheduledUti  .85973    
+Portao.NumberSeized                         556.00    
+Portao.ScheduledUtilization                 .23575    
+Pista taxiamento.NumberSeized               1105.0    
+Pista taxiamento.ScheduledUtilization       .46362    
+System.NumberOut                            551.00    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 9 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .49687     .00686     .13450     .78122        612    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        622    
+Pistas de taxiamento.TotalTimePerEntity     5.9917     .03298     4.3424     8.1537       1238    
+Pistas de taxiamento.VATimePerEntity        5.9831     .03009     4.3424     8.1537       1238    
+Controle de Voo.VATimePerEntity             .49687     .00686     .13450     .78122        612    
+Pistas de taxiamento.WaitTimePerEntity      .00862     .01177     .00000     1.6971       1238    
+Pistas de decolagem e aterissagem.VATimePe  2.2448     .03320     .16177     3.8550       1245    
+Portoes.VATimePerEntity                     29.644     .74518     .00000     57.584        622    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        612    
+Pistas de decolagem e aterissagem.WaitTime  12.700     (Corr)     .00000     31.890       1245    
+Pistas de decolagem e aterissagem.TotalTim  14.945     (Corr)     1.3798     34.011       1245    
+Portoes.TotalTimePerEntity                  29.644     .74518     .00000     57.584        622    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          46.499     (Corr)     16.590     75.629        629    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        629    
+AviaoSaindo.WaitTime                        25.258     (Corr)     .00000     56.461        629    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        629    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        629    
+AviaoSaindo.TotalTime                       71.758     (Corr)     20.269     118.56        629    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        612    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        617    
+Pistas de taxiamento.Queue.WaitingTime      .00862     .01222     .00000     1.6971       1238    
+Pistas de decolagem e aterissagem.Queue.Wa  12.681     (Corr)     .00000     31.890       1245    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           21.987     (Corr)     7.0000     36.000     10.000    
+AviaoSaindo.WIP                             9.0118     (Corr)     .00000     22.000     3.0000    
+Controladores de voo.NumberBusy             .21117     .01749     .00000     3.0000     .00000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .02112     .00175     .00000     .30000     .00000    
+Pista decolagem e aterrisagem.NumberBusy    1.9403     (Insuf)    .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .97019     (Insuf)    .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.774     .70813     5.0000     21.000     5.0000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .25549     .01416     .10000     .42000     .10000    
+Pista taxiamento.NumberBusy                 5.1467     .21645     .00000     10.000     5.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .51467     .02164     .00000     1.0000     .50000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .00741     (Insuf)    .00000     2.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  10.918     (Corr)     .00000     29.000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1245  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               304.08    
+Pistas de taxiamento Accum Wait Time        10.666    
+Controle de Voo Number Out                  612.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2794.8    
+Pistas de taxiamento Accum VA Time          7407.1    
+Pistas de decolagem e aterissagem Number I  1233.0    
+Pistas de decolagem e aterissagem Number O  1245.0    
+Pistas de decolagem e aterissagem Accum Wa  15811.    
+Portoes Accum VA Time                       18438.    
+Controle de Voo Number In                   612.00    
+Portoes Number Out                          622.00    
+Pistas de taxiamento Number Out             1238.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1238.0    
+Portoes Number In                           617.00    
+AviaoChegando.NumberIn                      612.00    
+AviaoChegando.NumberOut                     622.00    
+AviaoSaindo.NumberIn                        622.00    
+AviaoSaindo.NumberOut                       629.00    
+Controladores de voo.NumberSeized           612.00    
+Controladores de voo.ScheduledUtilization   .02112    
+Pista decolagem e aterrisagem.NumberSeized  1245.0    
+Pista decolagem e aterrisagem.ScheduledUti  .97019    
+Portao.NumberSeized                         617.00    
+Portao.ScheduledUtilization                 .25549    
+Pista taxiamento.NumberSeized               1238.0    
+Pista taxiamento.ScheduledUtilization       .51467    
+System.NumberOut                            629.00    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                  Summary for Replication 10 of 10
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+Replication ended at time      : 2880.0 Minutes 
+Statistics were cleared at time: 1440.0 Minutes (Saturday, April 06, 2013, 00:00:00)
+Statistics accumulated for time: 1440.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Controle de Voo.TotalTimePerEntity          .50179     .00734     .25827     .71035        612    
+Tally 3                                         --         --         --         --          0
+Portoes.WaitTimePerEntity                   .00000     .00000     .00000     .00000        612    
+Pistas de taxiamento.TotalTimePerEntity     6.0190     .02980     4.3029     8.9537       1225    
+Pistas de taxiamento.VATimePerEntity        6.0028     .02293     4.3029     7.6251       1225    
+Controle de Voo.VATimePerEntity             .50179     .00734     .25827     .71035        612    
+Pistas de taxiamento.WaitTimePerEntity      .01618     .01607     .00000     2.6342       1225    
+Pistas de decolagem e aterissagem.VATimePe  2.2449     .02726     .70147     4.0450       1226    
+Portoes.VATimePerEntity                     29.954     .81140     .00000     62.077        612    
+Controle de Voo.WaitTimePerEntity           .00000     .00000     .00000     .00000        612    
+Pistas de decolagem e aterissagem.WaitTime  8.4614     (Corr)     .00000     27.059       1226    
+Pistas de decolagem e aterissagem.TotalTim  10.706     (Corr)     .79182     29.296       1226    
+Portoes.TotalTimePerEntity                  29.954     .81140     .00000     62.077        612    
+AviaoChegando.VATime                            --         --         --         --          0
+AviaoChegando.NVATime                           --         --         --         --          0
+AviaoChegando.WaitTime                          --         --         --         --          0
+AviaoChegando.TranTime                          --         --         --         --          0
+AviaoChegando.OtherTime                         --         --         --         --          0
+AviaoChegando.TotalTime                         --         --         --         --          0
+AviaoSaindo.VATime                          46.945     (Corr)     17.657     78.813        614    
+AviaoSaindo.NVATime                         .00000     .00000     .00000     .00000        614    
+AviaoSaindo.WaitTime                        16.930     (Corr)     .00000     44.705        614    
+AviaoSaindo.TranTime                        .00000     .00000     .00000     .00000        614    
+AviaoSaindo.OtherTime                       .00000     .00000     .00000     .00000        614    
+AviaoSaindo.TotalTime                       63.875     (Corr)     18.935     111.52        614    
+Controle de Voo.Queue.WaitingTime           .00000     .00000     .00000     .00000        613    
+Portoes.Queue.WaitingTime                   .00000     .00000     .00000     .00000        611    
+Pistas de taxiamento.Queue.WaitingTime      .01619     .01641     .00000     2.6342       1224    
+Pistas de decolagem e aterissagem.Queue.Wa  8.4677     (Corr)     .00000     27.059       1226    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+AviaoChegando.WIP                           20.014     (Corr)     6.0000     34.000     16.000    
+AviaoSaindo.WIP                             7.1717     (Corr)     .00000     17.000     3.0000    
+Controladores de voo.NumberBusy             .21332     .01738     .00000     4.0000     1.0000    
+Controladores de voo.NumberScheduled        10.000     (Insuf)    10.000     10.000     10.000    
+Controladores de voo.Utilization            .02133     .00174     .00000     .40000     .10000    
+Pista decolagem e aterrisagem.NumberBusy    1.9112     (Insuf)    .00000     2.0000     2.0000    
+Pista decolagem e aterrisagem.NumberSchedu  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Pista decolagem e aterrisagem.Utilization   .95560     (Insuf)    .00000     1.0000     1.0000    
+Portao.NumberBusy                           12.733     .67620     4.0000     20.000     11.000    
+Portao.NumberScheduled                      50.000     (Insuf)    50.000     50.000     50.000    
+Portao.Utilization                          .25467     .01352     .08000     .40000     .22000    
+Pista taxiamento.NumberBusy                 5.1029     .28000     .00000     10.000     3.0000    
+Pista taxiamento.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+Pista taxiamento.Utilization                .51029     .02800     .00000     1.0000     .30000    
+Controle de Voo.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Portoes.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Pistas de taxiamento.Queue.NumberInQueue    .01376     (Insuf)    .00000     3.0000     .00000    
+Pistas de decolagem e aterissagem.Queue.Nu  7.2117     (Corr)     .00000     24.000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Operacoes de Aeronave                          1226  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Controle de Voo Accum VA Time               307.09    
+Pistas de taxiamento Accum Wait Time        19.818    
+Controle de Voo Number Out                  612.00    
+Portoes Accum Wait Time                     .00000    
+Pistas de decolagem e aterissagem Accum VA  2752.2    
+Pistas de taxiamento Accum VA Time          7353.5    
+Pistas de decolagem e aterissagem Number I  1226.0    
+Pistas de decolagem e aterissagem Number O  1226.0    
+Pistas de decolagem e aterissagem Accum Wa  10373.    
+Portoes Accum VA Time                       18332.    
+Controle de Voo Number In                   613.00    
+Portoes Number Out                          612.00    
+Pistas de taxiamento Number Out             1225.0    
+Controle de Voo Accum Wait Time             .00000    
+Pistas de taxiamento Number In              1224.0    
+Portoes Number In                           611.00    
+AviaoChegando.NumberIn                      613.00    
+AviaoChegando.NumberOut                     612.00    
+AviaoSaindo.NumberIn                        612.00    
+AviaoSaindo.NumberOut                       614.00    
+Controladores de voo.NumberSeized           613.00    
+Controladores de voo.ScheduledUtilization   .02133    
+Pista decolagem e aterrisagem.NumberSeized  1226.0    
+Pista decolagem e aterrisagem.ScheduledUti  .95560    
+Portao.NumberSeized                         611.00    
+Portao.ScheduledUtilization                 .25467    
+Pista taxiamento.NumberSeized               1224.0    
+Pista taxiamento.ScheduledUtilization       .51029    
+System.NumberOut                            614.00    
 
 
-Simulation run time: 1.22 minutes.
+                                      ARENA Simulation Results
+                                  Victor Freire - License: STUDENT
+
+                                 Output Summary for 10 Replications
+
+Project: Unnamed Project                                             Run execution date : 4/ 5/2013
+Analyst: Victor Freire                                               Model revision date: 4/ 5/2013
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Controle de Voo Accum VA Time               298.74     8.9835     277.90     323.26     10
+Pistas de taxiamento Accum Wait Time        8.2569     4.3711     1.1987     19.818     10
+Controle de Voo Number Out                  596.30     18.305     554.00     647.00     10
+Portoes Accum Wait Time                     .00000     .00000     .00000     .00000     10
+Pistas de decolagem e aterissagem Accum VA  2675.3     79.181     2474.2     2848.2     10
+Pistas de taxiamento Accum VA Time          7155.2     214.41     6687.1     7705.1     10
+Pistas de decolagem e aterissagem Number I  1191.3     37.607     1107.0     1289.0     10
+Pistas de decolagem e aterissagem Number O  1191.5     35.684     1105.0     1271.0     10
+Pistas de decolagem e aterissagem Accum Wa  9941.4     5356.5     3364.7     28126.     10
+Portoes Accum VA Time                       17986.     489.52     16850.     19254.     10
+Controle de Voo Number In                   596.20     18.526     553.00     647.00     10
+Portoes Number Out                          594.40     19.312     551.00     641.00     10
+Pistas de taxiamento Number Out             1191.4     36.966     1109.0     1285.0     10
+Controle de Voo Accum Wait Time             .00000     .00000     .00000     .00000     10
+Pistas de taxiamento Number In              1191.3     36.417     1105.0     1281.0     10
+Portoes Number In                           596.40     17.573     556.00     643.00     10
+AviaoChegando.NumberIn                      596.20     18.526     553.00     647.00     10
+AviaoChegando.NumberOut                     594.40     19.312     551.00     641.00     10
+AviaoSaindo.NumberIn                        594.40     19.312     551.00     641.00     10
+AviaoSaindo.NumberOut                       594.60     18.756     551.00     631.00     10
+Controladores de voo.NumberSeized           596.20     18.526     553.00     647.00     10
+Controladores de voo.ScheduledUtilization   .02074     6.2883E-04 .01927     .02245     10
+Pista decolagem e aterrisagem.NumberSeized  1191.6     35.547     1106.0     1271.0     10
+Pista decolagem e aterrisagem.ScheduledUti  .92894     .02744     .85973     .98878     10
+Portao.NumberSeized                         596.40     17.573     556.00     643.00     10
+Portao.ScheduledUtilization                 .25033     .00641     .23575     .26759     10
+Pista taxiamento.NumberSeized               1191.3     36.417     1105.0     1281.0     10
+Pista taxiamento.ScheduledUtilization       .49685     .01478     .46362     .53408     10
+System.NumberOut                            594.60     18.756     551.00     631.00     10
+
+Simulation run time: 0.42 minutes.
 Simulation run complete.

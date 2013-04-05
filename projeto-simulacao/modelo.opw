@@ -4,14 +4,22 @@ Pista decolagem e aterrisagem
 Portao
 Pista taxiamento
 [VARIABLES]
+Controle de Voo.VATime
+Pistas de taxiamento.WaitTime
 Controle de Voo.NumberOut
+Portoes.WaitTime
 Decolagem?.NumberOut False
 Quer decolar?.NumberOut False
+Pistas de decolagem e aterissagem.VATime
 Decolagem?.NumberOut True
+Pistas de taxiamento.VATime
 Pistas de decolagem e aterissagem.NumberIn
 Pistas de decolagem e aterissagem.NumberOut
+Pistas de decolagem e aterissagem.WaitTime
+Portoes.VATime
 Controle de Voo.NumberIn
 Portoes.NumberOut
+Controle de Voo.WaitTime
 Pistas de taxiamento.NumberOut
 Pistas de taxiamento.NumberIn
 Aviao entrando no espaco aereo.NumberOut
